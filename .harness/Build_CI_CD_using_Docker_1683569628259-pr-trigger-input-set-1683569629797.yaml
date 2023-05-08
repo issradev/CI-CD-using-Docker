@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_CI_CD_using_Docker_1683569628259-pr-trigger-input-set
+  identifier: Build_CI_CD_using_Docker_1683569628259prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_CI_CD_using_Docker_1683569628259
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
